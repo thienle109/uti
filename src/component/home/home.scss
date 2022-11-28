@@ -1,0 +1,15 @@
+.home{
+    background-color: red;
+    display: flex;
+    
+    .homeContainer{
+        background-color:rgb(198, 247, 195) ;
+        flex: 6;
+
+        .widgets{
+            display: flex;
+            padding: 22px;
+            gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.sidebar{
+    background-color: rgb(56, 231, 62);
+    flex: 1;
+    border-right: 0.5px solid lightgreen;
+    min-height: 1000px;
+
+    .top{
+        background-color:  rgb(56, 231, 62) ;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial;
+        text-shadow: 5px 0px 10px #77325a;
+
+        .logo{
+            font-size: 31px;
+            flex: content;
+            font-weight: bold;
+            color: yellow;
+            font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 55px;
+        }
+    }
+
+hr{
+    height: 0px;
+    border: 0.5px solid lightgreen;
+}
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0;
+
+            .title{
+                font-size: 15px;
+                font-weight: bold;
+                color:rgb(13, 14, 13);
+                margin-top: 15px;
+                font-family:  Script;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+               
+                &:hover{
+                    background-color: aqua;
+                }
+                .icon{
+                    font-size: 18px;
+                    color:rgb(255, 2, 2);
+                }
+                span{
+                    color: rgb(14, 14, 14);
+                    font-size: 20px;
+                    font-family: Script;
+                }
+            }
+       }
+    }
+    
+    .buttom{
+        display: flex;
+        align-items: center ;
+        margin: 10px;
+        
+
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid blue;
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: red;
+            }
+            &:nth-child(2){
+                background-color: red;
+            }
+            &:nth-child(3){
+                background-color: red;
+            }
+            
+        }
+    }
+}

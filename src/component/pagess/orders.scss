@@ -1,0 +1,34 @@
+.tipthe{
+    width: 50px;
+    height: 40px;
+    padding: 20px;
+    color: aqua;
+
+    .colom{
+        width: 35px;
+    }
+}
+td:hover{
+        background-color: aqua;}
+
+.font{
+    background-color: rgb(244, 224, 235);
+    margin-right: 5px;
+    color: aquamarine;
+   
+    &:hover{
+        background-color: rgb(33, 207, 57);
+    }
+
+    .edit{
+        height: 45px;
+        background-color: rgb(244, 224, 235);
+
+        &:hover{
+            background-color: chocolate ;
+        } 
+        
+    }
+    
+}
+

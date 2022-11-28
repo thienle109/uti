@@ -1,0 +1,54 @@
+.editp{
+    background-color: rgb(56, 231, 62);;
+    margin-left: 450px;
+    border-right: 0.5px solid lightgreen;
+    font-size:  30px;
+    display: inline-table;
+    padding-left: 20px;
+    width: 350px;
+    text-align: justify;
+    
+
+    h1{
+        font-family: serif;
+        font-size: 15px;
+        display: table-row  ;
+
+        
+            .input{
+                width: 200px;
+                font-size: 100px;
+            }
+            
+            
+        
+    }
+     
+}
+.confirm{
+    background-color: rgb(190, 252, 47);
+    margin-left: 50px;
+    color: aquamarine;
+
+   
+  
+    .ok{
+        height: 45px;
+        background-color: rgb(177, 237, 24);
+
+        &:hover{
+            background-color: rgb(231, 11, 11) ;
+        } 
+        
+    }
+    .comeback{
+        height: 45px;
+        background-color: rgb(177, 237, 24);
+
+        &:hover{
+            background-color: rgb(72, 13, 251) ;
+        } 
+        
+    }
+    
+}
